@@ -1,0 +1,81 @@
+.card-d{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 700px;
+}
+
+.card1{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    color: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;  
+    text-align: center;  
+    background: url('http://interiordesignsmagazine.com/wp-content/uploads/2014/09/Darkly-gothic-bar-with-Arthurian-theme..jpg') center / cover;
+}
+
+/* #FFD700 */
+
+.card1:before {
+    content: "";
+    background: linear-gradient(90deg, #92929234,  #e4e3e334, #888888d0);
+    height: 400px;
+    width: 10%;
+    position: absolute;
+    top: 0px;
+    left: -230px;
+    transform: skewX(-45deg);
+}
+.card1:hover {
+    background: url('http://interiordesignsmagazine.com/wp-content/uploads/2014/09/Darkly-gothic-bar-with-Arthurian-theme..jpg') center / cover;
+    color: #fff !important;
+}
+.card1:hover:before {
+    left: 150%;
+    transition: .5s ease-in-out;
+}
+
+.card1 h1{
+    text-shadow: 0 0 50px black;
+    margin: 0;
+    padding-top: 40%;
+    font-size: 45px;
+}
+
+.card1 p{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.niz1{
+    position:absolute;
+    text-align: left;
+    padding-top: 35%;
+    left: 2%;
+    color: black;
+}
+
+.niz2{
+    position:absolute;
+    text-align: left;
+    padding-top: 35%;
+    left: 36%;
+    color: black;
+}
+
+.niz3{
+    position:absolute;
+    text-align: left;
+    padding-top: 35%;
+    right: 24%;
+    color: black;
+}
