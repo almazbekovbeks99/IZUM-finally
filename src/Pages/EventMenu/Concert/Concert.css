@@ -1,0 +1,122 @@
+.conc{
+    color: white;
+    text-align: left;
+    padding: 50px;
+    
+}
+
+.conc h1{
+    margin: 0;
+    padding: 0;
+}
+
+.hr2{
+    margin-right: 35%;
+    height: 3px;
+    border: 0;
+    background: linear-gradient(65deg, rgb(133, 5, 207),  rgb(168, 3, 190), rgb(46, 46, 46));
+}
+
+.ccircle{
+    position: absolute;
+    left: 20%;
+    bottom: -170%;
+    width: 250px;
+    height: 250px;
+    border: 0;
+    border-radius: 100%;
+    background: linear-gradient(150deg, #0e166b, #8278daa1);
+    box-shadow: 0 0 30px rgba(40, 0, 68, 0);
+}
+.ccircle1{
+    position: absolute;
+    left: 45%;
+    bottom: -102%;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 100%;
+    background: linear-gradient(65deg, #0099ff7e, #9618f7);
+    box-shadow: 0 0 30px #be6bb313;
+}
+.ccircle2{
+    position: absolute;
+    left: 85%;
+    bottom: -114%;
+    width: 150px;
+    height: 150px;
+    border: 0;
+    border-radius: 100%;
+    background:linear-gradient(65deg, #5d69be, #ac51fb);
+    box-shadow: 0 0 30px #5d68be28;
+}
+.ccircle3{
+    position: absolute;
+    left: 60%;
+    bottom: -190%;
+    width: 350px;
+    height: 350px;
+    border: 0;
+    border-radius: 100%;
+    background: linear-gradient(45deg, #ff0078, #f1e66ecb) ;
+    box-shadow: 0 0 30px #a0084f25;
+}
+.ccircle4{
+    position: absolute;
+    left: 19%;
+    bottom: -220%;
+    width: 200px;
+    height: 200px;
+    border: 0;
+    border-radius: 100%;
+    background: linear-gradient(-15deg, #ea00ff, #5ffae0);
+    box-shadow: 0 0 30px #00000013;
+}
+.ccircle5{
+    position: absolute;
+    left: 45%;
+    bottom: -270%;
+    width: 300px;
+    height: 300px;
+    border: 0;
+    border-radius: 100%;
+    background: linear-gradient(60deg, #ff3e9d, #0e1f40);
+    box-shadow: 0 0 30px #08132a2c;
+}
+
+.gca{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.glasscard {
+    margin-top: 25px;
+    width: 350px;
+    min-height: 180px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    transition: .5s ease;
+  }
+  .glasscard img{
+    width: 300px;
+    height: 330px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .glasscard-number {
+    position: absolute;
+    bottom: 10%;
+    letter-spacing: 5px;
+  }

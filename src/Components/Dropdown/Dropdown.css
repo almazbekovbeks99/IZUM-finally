@@ -17,30 +17,52 @@ body{
 }
 .dropdown .dropdown-btn{
     padding: 15px 20px;
-    padding: 10px;
-    background-color: #ffff;
+    padding: 10px; 
     display: flex;
-    color: #333;
+    color: white;
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+    transition: 0.4s;
 }
 .dropdown .dropdown-content{
     position: absolute;
     padding: 10px;
     left: 0;
     padding: 10px;
-    background-color: rgb(253, 253, 253);
+    background-color:black;
     font-weight: 500;
     width: 95%;
+    display: flex;
+    flex-direction: column;
 }
 .dropdown .dropdown-content .dropdown-item{
     padding: 10px;
     cursor: pointer;
     transition: all 0.2s;
 }
-
+.dropdown .dropdown-btn::before{
+    content: "";
+    width: 0;
+    height: 3px;
+    transition: 0.3s;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+.dropdown .dropdown-btn:hover::before{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: rgba(134, 0, 134, 0.781);
+    transition: 0.3s;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    border-radius: 10px;
+    transition: 0.4s;
+}
 
 .dropdown .dropdown-content .dropdown-item:hover{
-    background-color: #f4f4f4;
+    background-color: #f4f4f456;
 }

@@ -1,4 +1,4 @@
-import { Images } from "./Utils/ImageList";
+import { Images } from "./Image/ImageList";
 import './Slider.css'
 import { useState } from "react";
 import BtnSlider from './BtnSlider'

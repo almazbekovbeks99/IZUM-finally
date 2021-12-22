@@ -1,0 +1,44 @@
+/* .vacheader{
+    color: gold;
+    padding: 40px;
+    text-align: center;
+}
+.hr1{
+    margin-top: -20px;
+    margin-right: 40%;
+    margin-left: 40%;
+    height: 3px;
+    border: 0;
+    background: linear-gradient(65deg, rgb(46, 46, 46), rgb(168, 3, 190), rgb(46, 46, 46));
+}
+.vacheaderin{
+    margin-top: 66px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(31, 31, 31);
+}
+
+.vacvyb{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vacvyb li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    border: 0;
+    border-style: none;
+    border-radius: 20px;
+    padding: 8px 10px;
+    transition: .3s;
+    background-image: linear-gradient(to left, transparent, transparent 0%, rgba(134, 0, 134, 0.781) 50%, rgb(61, 5, 100));
+    box-shadow: -30px -30px 80px #281755, 30px 30px 80px rgba(24, 3, 37, 0.1);
+}
+.vacvyb li a{
+    text-decoration: none;
+    color: white;
+}
+.vacvyb li :hover{
+    color: gold
+} */

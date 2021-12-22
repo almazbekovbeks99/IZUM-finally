@@ -1,0 +1,60 @@
+.mdg{
+    padding: 60px;
+    color: white;
+}
+
+.bdf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.bludoc {
+    text-align: center;
+    margin-top: 35px;
+    width: 350px;
+    min-height: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    background: linear-gradient(0deg,gold, purple);
+    box-shadow: 10px 10px 20px -10px #ffe99893;
+    border-right: 1px solid #57370d54;
+    border-bottom: 1px solid #57370d;
+    backdrop-filter: blur(10px);
+    transition: .5s ease;
+}
+
+.bludoc:hover{
+    box-shadow:
+        1px 1px #646464,
+        2px 2px #646464,
+        3px 3px #646464,
+        4px 4px #646464,
+        5px 5px #646464,
+        6px 6px #646464,
+        7px 7px #646464;
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+}
+
+
+.bludoc img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+.bludoc p{
+    font-size: 23px;
+}
+
+
+.bludoc .card-number{
+    font-size: 20px;
+}

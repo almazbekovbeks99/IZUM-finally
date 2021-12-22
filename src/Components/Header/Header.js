@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import './Header.css'
-import Dropdown2 from './Dropdown2';
-import Dropdown from './Dropdown';
+import Dropdown from '../Dropdown'
+import { Link } from 'react-router-dom';
+import { delieverMenu, eventsMenu } from '../../Utils';
+import VHeader from '../../Pages/Vacancy/VacancyHeader/VHeader';
 
 const Header = ()=>{
-    const [selected , setSelected] = useState("")
     const [active , setActive] = useState("")
 
     return(
@@ -12,52 +13,43 @@ const Header = ()=>{
             <div className="nav">
                 <ul className="nav-logo">
                    <li>
-                       <a href="">IZUM</a>
+                       <Link to="/">ИZЮМ</Link>
                    </li>
                 </ul>
                 <ul className="nav-flex">
                     <li>
-                        <a href='#'>
-                            <Dropdown selected={selected} setSelected={setSelected} />
-                        </a>
+                        <Dropdown title='Меню доставки' options={delieverMenu} />
                     </li>
                     <li>
-                        <a href='#'>
-                            Рестораны
-                        </a>
+                        <Link to='/restaurant'>
+                            Фотоотчеты
+                        </Link>
                     </li>
                     <li>
-                        <a href='#'>
+                        <Link to='/Banket'>
                             Банкеты 
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                           <a href="">
-                           <Dropdown2 active={active} setActive={setActive} />
-                           </a>
+                        <Dropdown title='События' options={eventsMenu} />
                     </li>
                     <li>
-                        <a href="">
-                             Вакансии
-                        </a>
+                        <Link to="/Vacancy">
+                            Вакансии
+                        </Link>
                     </li>
                 </ul>
                 <div className="btn">
                    <ul>
                    <button>Забронировать</button>
                     <li>
-                        <a href="">
+                        <Link to="/">
                            <i class="fas fa-shopping-bag"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            RU
-                        </a>
+                        </Link>
                     </li>
                    </ul>
                 </div>
-            </div>      
+            </div>    
         </>
     )
 }

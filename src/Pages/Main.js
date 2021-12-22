@@ -1,13 +1,12 @@
 import Card from "../Components/Card/Card";
-import Header from "../Components/Header/Header";
 import Slider from "../Slider/Slider";
-
+import Map from "./Map/Map"
 const Main = ()=>{
     return(
         <>
-           <Header/>
            <Slider />
            <Card />
+           <Map />
         </>
     )
 }

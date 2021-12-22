@@ -5,9 +5,10 @@
     margin: auto;
     align-items: center;
     height: 70px;
-    background-color: white;
     position: fixed;
     z-index: 20;
+    background-color: black;
+
 }
 .nav-logo{
     width: 15%;
@@ -17,8 +18,9 @@
 }
 .nav-logo li a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color:white;
     font-size: 30px;
+    font-weight: bolder;
 }
 .nav-flex{
     display: flex;
@@ -37,8 +39,8 @@
 }
 .nav-flex li a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 15px;
+    color:white;
+    font-size: 17px;
     transition: 0.3s;
     position: relative;
     padding-bottom: 5px;
@@ -53,11 +55,15 @@
     bottom: 0;
     position: absolute;
 }
+
+.nav-flex li a:hover{
+    transition: .4s;
+}
 .nav-flex li a:hover::before{
     content: "";
     width: 100%;
     height: 3px;
-    background-color: rgba(236, 179, 65, 0.425);
+    background-color: rgba(134, 0, 134, 0.781);
     transition: 0.3s;
     left: 0;
     bottom: 0;
@@ -65,12 +71,29 @@
     border-radius: 10px;
 }
 .btn button{
-    border: 0;
+    color: black;
+    cursor: pointer;
     padding: 7px;
-    border-radius: 10px;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 0;
+    background-color: white;
+    border-radius: 15px;
+    background-image: linear-gradient(to left, transparent, transparent 50%, rgba(134, 0, 134, 0.781) 50%, rgb(61, 5, 100));
     position: relative;
-    background-color: rgba(223, 183, 74, 0.541);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: .3s;
+    font-size: 15px;
+    border: 0;
 }
+
+.btn button:hover{
+    background-position: 0 0;
+    color: #fff;
+}
+
 .btn{
     width: 20%;
 }
@@ -79,30 +102,11 @@
     justify-content: space-around;
     align-items: center;
 }
-.btn button::before{
-    content: "";
-    width: 0;
-    height: 100%;
-    transition: 0.3s;
-    left: 0;
-    bottom: 0;
-    position: absolute;
-}
-.btn button:hover::before{
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: rgba(236, 179, 65, 0.425);
-    transition: 0.3s;
-    left: 0;
-    bottom: 0;
-    position: absolute;
-    border-radius: 10px;
-}
 .btn ul li{
     list-style: none;
 }
 .btn ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
+

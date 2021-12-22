@@ -1,0 +1,119 @@
+.banket{
+    color: white;
+    text-align: left;
+    padding: 50px;
+}
+.banket h1{
+    margin: 0;
+    padding: 0;
+}
+.hr2{
+    margin-right: 35%;
+    height: 3px;
+    border: 0;
+    background: linear-gradient(65deg, rgb(133, 5, 207),  rgb(168, 3, 190), rgb(46, 46, 46));
+}
+.inlinebox{
+    display: flex;
+}
+.centermain{
+    color: white;
+    margin: 20px 20px;
+}
+.leftside {
+    margin-top: 100px;
+}
+.leftside p{
+   font-size: 20px;
+   padding-right: 100px;
+   align-items: center;
+   padding-top: 20px;
+}
+.rightside {
+    background: url('https://wedding.4banket.ru/wp-content/uploads/2018/07/Svadebnyiy-banket-i-restoran-obshhie-tochki-soprikosnoveniya1.jpg')center/cover;
+    width: 700px;
+    height: 300px;
+    margin: 20px 20px;
+    box-shadow: 5px 10px 15px white;
+    border-radius: 10px; 
+}
+.inlinebox1{
+    display: flex;
+}
+.leftside1{
+    background: url('https://i.pinimg.com/originals/e6/9b/bc/e69bbceb317e67fc1276d77627c8f04e.jpg')center/cover;
+    width: 800px;
+    height: 300px;
+    margin: 20px 20px;
+    box-shadow: 5px 10px 15px white;
+    border-radius: 10px; 
+}
+.rightside1{
+    margin-top: 100px;
+    padding-left: 100px;
+}
+.rightside1 p{
+    padding-top: 20px;
+    font-size: 20px;
+    align-items: center;
+}
+.inlinebox2{
+    display: flex;
+}
+.leftside2{
+    margin-top: 100px;
+}
+.leftside2 p{
+   font-size: 20px;
+   padding-right: 100px;
+   align-items: center;
+   padding-top: 20px;
+}
+.rightside2{
+    background: url('https://sun9-82.userapi.com/impf/c845221/v845221091/1b6975/AJH2V7-cczw.jpg?size=807x538&quality=96&sign=79ee05037e664de1ac3af0550f21718e&type=album')center/cover;
+    width: 700px;
+    height: 300px;
+    margin: 20px 20px;
+    box-shadow: 5px 10px 15px white;
+    border-radius: 10px; 
+}
+.inlinebox3{
+    display: flex;
+}
+.leftside3{
+    background: url('https://static.tildacdn.com/tild6631-6663-4164-b433-633232656564/Business-Breakfast-E.jpg')center/cover;
+    width: 800px;
+    height: 300px;
+    margin: 20px 20px;
+    box-shadow: 5px 10px 15px white;
+    border-radius: 10px; 
+}
+.rightside3{
+    margin-top: 100px;
+    padding-left: 100px;
+}
+.rightside3 p{
+    padding-top: 20px;
+    font-size: 20px;
+    align-items: center;
+}
+.inlinebox4{
+    display: flex;
+}
+.leftside4{
+    margin-top: 100px;
+}
+.leftside4 p{
+   font-size: 20px;
+   padding-right: 100px;
+   align-items: center;
+   padding-top: 20px;
+}
+.rightside4{
+    background: url('https://www.obed-online.ru/image/catalog/blog/kofe-brejk-chto-eto-takoe-ego-menyu-kak-i-gde-provodyat_06.jpg')center/cover;
+    width: 700px;
+    height: 300px;
+    margin: 20px 20px;
+    box-shadow: 5px 10px 15px white;
+    border-radius: 10px; 
+}

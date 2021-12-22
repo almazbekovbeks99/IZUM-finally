@@ -1,0 +1,14 @@
+.news{
+    padding: 65px;
+    color: white;
+}
+
+.news h1{
+    margin: 0;
+}
+.nco{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

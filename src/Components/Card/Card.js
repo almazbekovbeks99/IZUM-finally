@@ -8,37 +8,19 @@ function Card() {
             <div className="card-d">
                 <div>
                     <div className="card1">
-                        <h1>Мы открылись!</h1>
-                        <p>Ленина пр-т. 123г</p>
+                        <h1>Караоке бар!</h1>
                     </div>
                 </div>
-                    {/* <div className='niz1'>
-                        <p>15 октября </p>
-                        <p>Мы открылыись, Ленинский проспект, д.123г</p>
-                    </div> */}
-
                     <div>
-                    <div className="card1">
-                        <h1>Мы открылись!</h1>
-                        <p>Ленина пр-т. 123г</p>
+                    <div className="card2">
+                        <h1>Гостнициа!</h1>
                     </div>
                 </div>
-                    {/* <div className='niz2'>
-                        <p>05 сентября</p>
-                        <p>Кулинарные мастер-классы</p>
-                    </div> */}
-
                     <div>
-                    <div className="card1">
-                        <h1>Мы открылись!</h1>
-                        <p>Ленина пр-т. 123г</p>
+                    <div className="card3">
+                        <h1>Фитнесс!</h1>
                     </div>
                 </div>
-                    {/* <div className='niz3'>
-                        <p>05 сентября</p>
-                        <p>Детский клуб</p>
-                    </div> */}
-                
             </div>
         </>
     )
