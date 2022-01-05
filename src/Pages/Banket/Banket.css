@@ -11,7 +11,7 @@
     margin-right: 35%;
     height: 3px;
     border: 0;
-    background: linear-gradient(65deg, rgb(133, 5, 207),  rgb(168, 3, 190), rgb(46, 46, 46));
+    background: linear-gradient(65deg, rgb(133, 5, 207),  rgb(107, 5, 167), rgb(17, 17, 17));
 }
 .inlinebox{
     display: flex;
@@ -34,9 +34,14 @@
     width: 700px;
     height: 300px;
     margin: 20px 20px;
-    box-shadow: 5px 10px 15px white;
+    box-shadow: 15px 15px 5px rgb(0, 0, 0);
     border-radius: 10px; 
+    transition: .5s;
 }
+
+
+
+
 .inlinebox1{
     display: flex;
 }
@@ -45,7 +50,7 @@
     width: 800px;
     height: 300px;
     margin: 20px 20px;
-    box-shadow: 5px 10px 15px white;
+    box-shadow: -15px 15px 5px rgb(0, 0, 0);
     border-radius: 10px; 
 }
 .rightside1{
@@ -74,7 +79,7 @@
     width: 700px;
     height: 300px;
     margin: 20px 20px;
-    box-shadow: 5px 10px 15px white;
+    box-shadow: 15px 15px 5px rgb(0, 0, 0);
     border-radius: 10px; 
 }
 .inlinebox3{
@@ -85,7 +90,7 @@
     width: 800px;
     height: 300px;
     margin: 20px 20px;
-    box-shadow: 5px 10px 15px white;
+    box-shadow: -15px 15px 5px rgb(0, 0, 0);
     border-radius: 10px; 
 }
 .rightside3{
@@ -114,6 +119,8 @@
     width: 700px;
     height: 300px;
     margin: 20px 20px;
-    box-shadow: 5px 10px 15px white;
+    box-shadow: 15px 15px 5px rgb(0, 0, 0);
     border-radius: 10px; 
+    transition: .3s;
 }
+

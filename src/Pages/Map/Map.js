@@ -4,18 +4,19 @@ function Map() {
     return(
         <>
             <div className="pofot">
-               <ul>
+               <div className='mco'>
                     <div className="cont">
-                            <h1>НАШИ <span style={{color:'darkorchid'}}>КОНТАКТЫ</span></h1>
+                            <h1>НАШИ <span style={{color:'rgb(170, 0, 255)'}}>КОНТАКТЫ</span></h1>
                             <div className="podline"></div>
                             <p><i class="fas fa-map-marker-alt"></i> <br /> 214 ул.Ленина Ош</p>
                             <p><i class="far fa-envelope"></i> <br /> izumosh@gmail.com</p>
                             <p><i class="fas fa-phone-square"></i> <br /> +996 777 590 361 <br /> +996 553 609 243</p>
                     </div>
                     <div className="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.157575764646!2d72.80655235009377!3d40.51600805752047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bdae9c4d81dd67%3A0x49cb6ca6944d8bf7!2z0KDQtdGB0YLQvtGA0LDQvSDQmHrRjtC8!5e0!3m2!1sru!2skg!4v1636386089698!5m2!1sru!2skg" width="800" height="585" allowfullscreen="" loading="lazy"></iframe>
+                        <div style={{position:"relative;overflow:hidden;"}}><a href="https://yandex.ru/maps/org/izyum_resto_bar/154877620464/?utm_medium=mapframe&utm_source=maps" style={{color:"#eee;font-size:12px;position:absolute;top:0px;"}}></a><a href="https://yandex.ru/maps/10310/osh/category/nightclub/184106368/?utm_medium=mapframe&utm_source=maps" style={{color:"#eee;font-size:12px;position:absolute;top:14px;"}}></a><iframe src="https://yandex.ru/map-widget/v1/-/CCUymZsh2A" frameborder="1" allowfullscreen="true" style={{position:"relative;"}}></iframe>
+                        </div>
                     </div>
-               </ul>
+               </div>
             </div>
         </>
     )

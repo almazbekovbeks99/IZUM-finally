@@ -7,11 +7,8 @@
     margin: 0;
 }
 
-.hr2s{
-    margin-right: 80%;
-    height: 3px;
-    border: 0;
-    background: linear-gradient(65deg, rgb(133, 5, 207),  rgb(168, 3, 190), rgb(46, 46, 46));
+.d{
+    width: 21%;
 }
 
 

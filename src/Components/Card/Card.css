@@ -17,7 +17,7 @@
     width: 400px;
     height: 400px;
     border-radius: 15px;
-    box-shadow: 0 2px 20px rgb(68, 1, 77), 0 3px 30px rgba(134, 2, 134, 0.781);
+    box-shadow: 0 5px 15px black;
     text-align: center;  
     background: url('https://img1.akspic.ru/previews/1/9/7/6/16791/16791-muzyka-audio-tehnologii-tanec-mikrofon-x750.jpg') center / cover;
 }
@@ -31,14 +31,14 @@
     width: 400px;
     height: 400px;
     border-radius: 15px;  
-    box-shadow: 0 2px 20px rgb(68, 1, 77), 0 3px 30px rgba(134, 2, 134, 0.781);
+    box-shadow: 0 5px 15px black;
     text-align: center; 
 }
 .card-d .card3{
     background: url('https://r-ugolok.ru/wp-content/uploads/2020/03/1-10.jpg')center/cover;
     position: relative;
     display: inline-block;
-    box-shadow: 0 2px 20px rgb(68, 1, 77), 0 3px 30px rgba(134, 2, 134, 0.781);
+    box-shadow: 0 5px 15px black;
     overflow: hidden;
     cursor: pointer;
     color: white;

@@ -15,7 +15,8 @@ const Banket = ()=>{
                            Званый обед или ужин с полной посадкой, сервировкой и подачей нескольких блюд в торжественной обстановке.
                            </p>
                         </div>
-                     <div class="rightside">  
+                     <div class="rightside"> 
+                  
                     </div>
                   </div>
                   <div className='inlinebox1'>

@@ -8,8 +8,8 @@ const News = () => {
         <>
             <div className="news">
                 <h1><i style={{paddingRight:'10px'}} class="far fa-newspaper"></i> Новости</h1>
-                <hr className="hr2s" />
-                <div className="nco">
+                <hr className="hr2 s" />
+                {/* <div className="nco">
                     <div className="newscard1">
                         <h1>Мы открылись!</h1>
                         <p>Ленина пр-т. 123г</p>
@@ -34,7 +34,7 @@ const News = () => {
                         <h1>Мы открылись!</h1>
                         <p>Ленина пр-т. 123г</p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )

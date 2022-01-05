@@ -42,3 +42,46 @@
 .vacvyb li :hover{
     color: gold
 } */
+
+
+
+.about{
+    text-align: left;
+    width: 75%;
+    color: whitesmoke;
+    padding-left: 10%;
+}
+
+.about h3{
+    background: linear-gradient(65deg, rgb(129, 0, 214), rgb(247, 1, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: table;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+
+.about p{
+    font-size: 18px;
+}
+
+.we{
+    margin-top: 60px;
+    text-align: left;
+    width: 75%;
+    color: whitesmoke;
+    padding-left: 10%;
+}
+
+.we h3{
+    background: linear-gradient(65deg, rgb(153, 0, 255), rgb(247, 1, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: table;
+    font-size: 24px;padding-bottom: 15px;
+}
+
+.we p{
+    font-size: 18px;
+}
