@@ -12,3 +12,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.s{
+    width: 25%;
+}

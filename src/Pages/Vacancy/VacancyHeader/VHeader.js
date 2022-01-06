@@ -7,7 +7,6 @@ const VHeader = ()=>{
         <>
             <div className="vacheader">
                 <h1>Вакансии</h1>
-                <hr className="hr1" />
                <div className="vacheaderin">
                   <ul className="vacvyb">
                     <li>
